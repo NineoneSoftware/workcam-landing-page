@@ -1,0 +1,110 @@
+#page title
+page_title                                : "WorkCam"                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+
+# App Info
+ios_app_id                                : 1579375801                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+
+appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            :                                           # Enter Google Play Store URL.
+presskit_download_link                    :                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+
+app_icon                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  :                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 :                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : Keep all of your work and business photos separate from your personal photos with WorkCam.
+
+enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+# Information About Yourself
+your_name                                 : Nineone Software Inc.                                
+your_link                                 :                      
+your_city                                 : Vancouver                                
+email_address                             : nineonesoftware@gmail.com
+facebook_username                         :                                           
+instagram_username                        : 
+twitter_username                          : 
+github_username                           : 
+youtube_username                          :
+
+
+
+# Feature List                            Edit, add or remove features to be presented.
+features                                  :
+  - title                                 : How can I add photos to WorkCam?
+    description                           : 1. Take photos directly with WorkCam so your work photos never touch your personal Photo Library 2. Import photos from your Photo Library from an album you've created in WorkCam 3. Send up to 50 photos at a time from your Photo Library to WorkCam via the iOS share sheet
+    fontawesome_icon_name                 : sync
+
+  - title                                 : How can I organize my photos within WorkCam?
+    description                           : 1. Create an unlimited amount of albums e.g. 'Before and After', 'Patient Photos', 'Properties' etc. 2. Move your photos to the correct albums 3. Tag photos within your albums for quick filtering
+    fontawesome_icon_name                 : adjust
+
+  - title                                 : What are pending photos?
+    description                           : When you take a photo with the built-in camera it's added to your 'Pending' photos list. Photos that are pending can then be added to the correct album.
+    fontawesome_icon_name                 : magic
+  
+  - title                                 : Are my photos secure in WorkCam?
+    description                           : Yes! If your device uses a password, Face ID or Touch ID all of your photos are encrypted using Apple's APIs when stored in WorkCam. You can also enable Face ID or Touch ID to gain entry to WorkCam's stored photos.
+    fontawesome_icon_name                 : star
+
+  - title                                 : How can I export my photos from WorkCam?
+    description                           : All photos can easily be exported via the share sheet within an album by selecting the photos you wish to share. From the share sheet you can email, message or perform any other action you have available on the selected photos.
+    fontawesome_icon_name                 : arrow-alt-circle-down
+
+
+# Theme Settings
+topbar_color                              : "#000000"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/bathroom.jpg                    # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#363b3d"
+cover_overlay_transparency                : 0.8
+
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+
+body_background_color                     : "#ffffff"
+
+link_color                                : "#ffffff"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#6C63FF"
+feature_icons_background_color            : "#e6e6e6"
+
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
+
+footer_text_color                         : "#666666"
+
+
+
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown
