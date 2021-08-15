@@ -53,7 +53,11 @@ features                                  :
 
   - title                                 : Export
     description                           : All photos stored with WorkCam can easily be exported via the share sheet within an album. From the share sheet you can email, message or perform any other action you have available on your device
-    fontawesome_icon_name                 : arrow-alt-circle-down
+    fontawesome_icon_name                 : arrow-alt-circle-up
+
+  - title                                 : Watermark
+    description                           : Brand your photos with custom watermarks! To watermark your photos simply select "Share Watermarked Photos" from the share prompt. Once you create your custom watermark you can configure your photos to be watermarked
+    fontawesome_icon_name                 : magic
 
 
 # Theme Settings
