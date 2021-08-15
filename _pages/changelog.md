@@ -14,3 +14,8 @@ include_in_header: true
 Initial version of WorkCam released to the App Store!
 
 <br>
+
+### `Watermarks`
+# **Version 1.1**
+1. Watermarks: Brand your photos when sharing them by adding a custom watermark!
+2. Various bug fixes and performance increases.
